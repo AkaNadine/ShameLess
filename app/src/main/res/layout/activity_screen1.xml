@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#80FFFFFF"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context=".Screen1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/titleWindow"
+                android:layout_width="350dp"
+                android:layout_height="250dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="7dp"
+                android:background="#00E9C46A"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="158dp"
+                android:layout_alignBottom="@+id/titleWindow"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="74dp"
+                android:layout_marginEnd="99dp"
+                android:layout_marginBottom="1dp"
+                app:srcCompat="@drawable/female_reproduction" />
+
+
+            <ImageView
+                android:id="@+id/image2View"
+                android:layout_width="0dp"
+                android:layout_height="158dp"
+                android:layout_below="@+id/title2Window"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="81dp"
+                android:layout_marginTop="-78dp"
+                android:layout_marginEnd="92dp"
+                app:srcCompat="@drawable/male_reproduction" />
+
+            <TextView
+                android:id="@+id/messageWindow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/titleWindow"
+                android:padding="30dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/title2Window"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/messageWindow"
+                android:padding="30dp"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:id="@+id/message2Window"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image2View"
+                android:padding="30dp"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

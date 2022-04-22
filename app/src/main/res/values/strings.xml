@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MainMenu</string>
+    <string name="hello">Hello</string>
+    <string name="user">User</string>
+    <string name="my_body">My body</string>
+    <string name="myth_busters">Myth Busters</string>
+    <string name="decision_making">Decision Making</string>
+    <string name="diseases">diseases</string>
+    <string name="gender_equality">Gender Equality</string>
+    <string name="safety_pregnancy">Safety/Pregnancy</string>
+    <string name="communication_intimacy">Communication/Intimacy</string>
+    <string name="puberty">Puberty</string>
+    <string name="chat_with_jimmy">Chat With Jimmy</string>
+    <string name="getting_to_know_my_body">Getting to know my body</string>
+    <string name="login">Login</string>
+    <string name="chat_with_sasha">Chat with Sasha</string>
+</resources>

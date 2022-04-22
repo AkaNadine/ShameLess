@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainmenu.Homepage"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_background"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textHello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/hello"
+            android:textColor="@color/dark_blue"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/user"
+            android:textColor="@color/dark_blue"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/textHello"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+       tools:context=".MainActivity">
+
+        <Button
+
+            android:id="@+id/btnCommunication"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="53dp"
+            android:background="@drawable/btn_background"
+            android:text="@string/communication_intimacy"
+            android:textColor="@color/white" />
+        <Button
+        android:id="@+id/btnDecisionMaking"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="178dp"
+        android:background="@drawable/btn_background2"
+        android:text="@string/decision_making"
+        android:textColor="@color/white" />
+        <Button
+
+            android:id="@+id/btnMyBody"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="311dp"
+            android:background="@drawable/btn_background"
+            android:text="@string/my_body"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/btnPregnancy"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="446dp"
+            android:background="@drawable/btn_background2"
+            android:text="@string/safety_pregnancy"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/btnPuberty"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="229dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/btn_background2"
+            android:text="@string/puberty"
+            android:textColor="@color/white" />
+
+        <Button
+
+            android:id="@+id/btnGenderEquality"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="229dp"
+            android:layout_marginTop="178dp"
+            android:background="@drawable/btn_background"
+            android:text="@string/gender_equality"
+            android:textColor="@color/white" />
+        <Button
+
+            android:id="@+id/btnMythBusters"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="228dp"
+            android:layout_marginTop="311dp"
+            android:background="@drawable/btn_background2"
+            android:text="@string/myth_busters"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/btnDiseases"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="228dp"
+            android:layout_marginTop="445dp"
+            android:background="@drawable/btn_background"
+            android:text="@string/diseases"
+            android:textColor="@color/white" />
+
+
+        <Button
+            android:id="@+id/btnChatBot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="149dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/chat_bot_button"
+            android:text="@string/chat_with_sasha"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

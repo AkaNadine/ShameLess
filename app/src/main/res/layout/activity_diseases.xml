@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".mainmenu.DiseasesScreen">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/titleDiseases"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/mythBusterPicture"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/titleDiseases"
+                app:srcCompat="@drawable/marginalia_autopilot_vehicle" />
+            <TextView
+                android:id="@+id/titleDisease1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/mythBusterPicture"/>
+            <TextView
+                android:id="@+id/symptomsDisease1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease1"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/treatmentDisease1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease1"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/titleDisease2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/treatmentDisease1"/>
+            <TextView
+                android:id="@+id/symptomsDisease2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease2"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/treatmentDisease2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease2"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/titleDisease3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/treatmentDisease2"/>
+            <TextView
+                android:id="@+id/symptomsDisease3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease3"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/treatmentDisease3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease3"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/titleDisease4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/treatmentDisease3"/>
+            <TextView
+                android:id="@+id/symptomsDisease4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease4"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/treatmentDisease4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease4"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/titleDisease5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/treatmentDisease4"/>
+            <TextView
+                android:id="@+id/symptomsDisease5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease5"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/treatmentDisease5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease5"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/titleDisease6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/treatmentDisease5"/>
+            <TextView
+                android:id="@+id/symptomsDisease6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease6"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/treatmentDisease6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease6"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/titleDisease7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/treatmentDisease6"/>
+            <TextView
+                android:id="@+id/symptomsDisease7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease7"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/treatmentDisease7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease7"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/titleDisease8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/treatmentDisease7"/>
+            <TextView
+                android:id="@+id/symptomsDisease8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease8"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/treatmentDisease8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease8"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/titleDisease9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/treatmentDisease8"/>
+            <TextView
+                android:id="@+id/symptomsDisease9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease9"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/treatmentDisease9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease9"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/prevention"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/treatmentDisease9"/>
+            <TextView
+                android:id="@+id/abtPrevention"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/prevention"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

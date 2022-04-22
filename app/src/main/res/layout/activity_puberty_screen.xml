@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8072ACAC"
+    tools:context=".mainmenu.PubertyScreen">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/titlePuberty"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="#0072ACAC"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="158dp"
+                android:layout_below="@+id/titlePuberty"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="74dp"
+                android:layout_marginTop="-160dp"
+                android:layout_marginEnd="99dp"
+                app:srcCompat="@drawable/growing_up" />
+
+            <TextView
+                android:id="@+id/articlePuberty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titlePuberty"
+                android:padding="30dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/titlePuberty2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/articlePuberty"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/articlePuberty2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titlePuberty2"
+                android:padding="15dp"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/titlePuberty3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/articlePuberty2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/articlePuberty3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titlePuberty3"
+                android:padding="15dp"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
