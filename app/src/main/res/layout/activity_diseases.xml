@@ -23,7 +23,7 @@
                 android:layout_height="50dp"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="16dp"
                 android:textStyle="bold" />
             <ImageView
                 android:id="@+id/mythBusterPicture"
@@ -47,7 +47,7 @@
                 android:layout_below="@id/titleDisease1"
                 android:padding="15dp"
                 android:textColor="@color/black"
-                android:textSize="17dp" />
+                android:textSize="16dp" />
             <TextView
                 android:id="@+id/treatmentDisease1"
                 android:layout_width="match_parent"
@@ -55,7 +55,7 @@
                 android:layout_below="@id/symptomsDisease1"
                 android:padding="15dp"
                 android:textColor="@color/black"
-                android:textSize="17dp" />
+                android:textSize="16dp" />
 
             <TextView
                 android:id="@+id/titleDisease2"
