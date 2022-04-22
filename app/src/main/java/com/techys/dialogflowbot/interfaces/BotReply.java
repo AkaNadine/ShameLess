@@ -5,5 +5,5 @@ import com.google.protobuf.InvalidProtocolBufferException;
 
 public interface BotReply {
 
-  void callback(DetectIntentResponse returnResponse) throws InvalidProtocolBufferException;
+    void callback(DetectIntentResponse returnResponse) throws InvalidProtocolBufferException;
 }

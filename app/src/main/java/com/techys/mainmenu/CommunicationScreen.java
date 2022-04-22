@@ -13,7 +13,7 @@ public class CommunicationScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_communication_screen);
-        TextView mTitleWindow =(TextView)  findViewById(R.id.titleWindow);
+        TextView mTitleWindow = (TextView) findViewById(R.id.titleWindow);
         TextView mMessageWindow = (TextView) findViewById(R.id.messageWindow);
         TextView mHeader1Window = (TextView) findViewById(R.id.header1Window);
         TextView mHeader2Window = (TextView) findViewById(R.id.header2Window);

@@ -12,11 +12,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.techys.dialogflowbot.adapters.ChatAdapter;
-import com.techys.dialogflowbot.helpers.SendMessageInBg;
-import com.techys.dialogflowbot.interfaces.BotReply;
-import com.techys.dialogflowbot.models.CustomPayload;
-import com.techys.dialogflowbot.models.Message;
 import com.google.api.gax.core.FixedCredentialsProvider;
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.auth.oauth2.ServiceAccountCredentials;
@@ -31,6 +26,11 @@ import com.google.common.collect.Lists;
 import com.google.gson.Gson;
 import com.google.protobuf.InvalidProtocolBufferException;
 import com.techys.R;
+import com.techys.dialogflowbot.adapters.ChatAdapter;
+import com.techys.dialogflowbot.helpers.SendMessageInBg;
+import com.techys.dialogflowbot.interfaces.BotReply;
+import com.techys.dialogflowbot.models.CustomPayload;
+import com.techys.dialogflowbot.models.Message;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -39,21 +39,18 @@ import java.util.Objects;
 import java.util.UUID;
 
 
-
 public class ChatBotActivity extends AppCompatActivity implements BotReply {
 
+    private final String uuid = UUID.randomUUID().toString();
     RecyclerView chatView;
     ChatAdapter chatAdapter;
     List<Message> messageList = new ArrayList<>();
     EditText editMessage;
     ImageButton btnSend;
-
     //dialogFlow
     private SessionsClient sessionsClient;
     private SessionName sessionName;
-    private final String uuid = UUID.randomUUID().toString();
     private String jsonString;
-
 
 
     @Override

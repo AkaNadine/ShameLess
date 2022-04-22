@@ -9,7 +9,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-
 import com.techys.R;
 
 import java.util.List;
@@ -34,7 +33,7 @@ public class OnboardingAdapter extends RecyclerView.Adapter<OnboardingAdapter.On
 
     @Override
     public void onBindViewHolder(@NonNull OnboardingViewHolder holder, int position) {
-          holder.setOnboardingData(onboardingItems.get(position));
+        holder.setOnboardingData(onboardingItems.get(position));
     }
 
     @Override
@@ -42,15 +41,15 @@ public class OnboardingAdapter extends RecyclerView.Adapter<OnboardingAdapter.On
         return onboardingItems.size();
     }
 
-    class OnboardingViewHolder extends RecyclerView.ViewHolder{
+    class OnboardingViewHolder extends RecyclerView.ViewHolder {
 
         private TextView textTitle;
         private TextView textDescription;
-        private ImageView  imageOnboarding;
+        private ImageView imageOnboarding;
 
-         OnboardingViewHolder(@NonNull View itemView) {
+        OnboardingViewHolder(@NonNull View itemView) {
             super(itemView);
-            textTitle=itemView.findViewById(R.id.text);
+            textTitle = itemView.findViewById(R.id.text);
             textDescription = itemView.findViewById(R.id.textDescription);
             imageOnboarding = itemView.findViewById(R.id.imageOnboarding);
         }

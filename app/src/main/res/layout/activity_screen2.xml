@@ -29,7 +29,7 @@
                 android:background="#00FFFFFF"
                 android:padding="10dp"
                 android:textSize="20sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/messageWindow"

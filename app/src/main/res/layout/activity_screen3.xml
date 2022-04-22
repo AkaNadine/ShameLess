@@ -31,7 +31,7 @@
                 android:background="#0072ACAC"
                 android:padding="10dp"
                 android:textSize="20sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView"

@@ -25,8 +25,6 @@ public class gender_equality extends AppCompatActivity {
                 "In the last years, the society was making progress and accepting that there are no differences between a girl and a boy, in the most part of the world.\n\n");
 
 
-
-
     }
 
 }

@@ -18,6 +18,8 @@ import java.util.List;
 
 public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MyViewHolder> {
 
+    String buttonText;
+    String richContentLayout;
     private List<Message> messageList;
     private Activity activity;
 
@@ -38,9 +40,6 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.MyViewHolder> 
         richButton.setText(buttonText);
         holder.richContentLayout.addView(richButton);
     }
-
-    String buttonText;
-    String richContentLayout;
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {

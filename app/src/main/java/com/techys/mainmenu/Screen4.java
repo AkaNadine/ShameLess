@@ -13,7 +13,7 @@ public class Screen4 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_screen4);
-        TextView mTitleWindow =(TextView)  findViewById(R.id.titleWindow);
+        TextView mTitleWindow = (TextView) findViewById(R.id.titleWindow);
         TextView mMessageWindow = (TextView) findViewById(R.id.messageWindow);
         TextView mHeader1Window = (TextView) findViewById(R.id.header1Window);
         TextView mHeader2Window = (TextView) findViewById(R.id.header2Window);

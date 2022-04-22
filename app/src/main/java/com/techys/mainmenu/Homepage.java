@@ -25,7 +25,6 @@ public class Homepage extends AppCompatActivity {
     private Button btnChatbot;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,7 +46,7 @@ public class Homepage extends AppCompatActivity {
                 openDecisionMakingScreen();
             }
         });
-        btnMyBody= (Button) findViewById(R.id.btnMyBody);
+        btnMyBody = (Button) findViewById(R.id.btnMyBody);
         btnMyBody.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -108,43 +107,51 @@ public class Homepage extends AppCompatActivity {
 
 
     }
-    public void openCommunicationScreen(){
-        Intent intent= new Intent(this, CommunicationScreen.class);
-        startActivity(intent);
-    }
-    public void openDecisionMakingScreen(){
-        Intent intent= new Intent(this, DecisionMakingScreen.class);
-        startActivity(intent);
-    }
-    public void openMyBodyScreen(){
-        Intent intent= new Intent(this, MyBodyScreen.class);
-        startActivity(intent);
-    }
-    public void openPregnancyScreen(){
-        Intent intent= new Intent(this, PregnancyScreen.class);
-        startActivity(intent);
-    }
-    public void openPubertyScreen(){
-        Intent intent= new Intent(this, PubertyScreen.class);
-        startActivity(intent);
-    }
-    public void openGenderEqualityScreen(){
-        Intent intent= new Intent(this, GenderEqualityScreen.class);
-        startActivity(intent);
-    }
-    public void openMythBusters(){
-        Intent intent= new Intent(this, MythBusters.class);
-        startActivity(intent);
-    }
-    public void openDiseasesScreen(){
-        Intent intent= new Intent(this, DiseasesScreen.class);
-        startActivity(intent);
-    }
-    public void openChatBotActivity(){
-        Intent intent= new Intent(this, ChatBotActivity.class);
+
+    public void openCommunicationScreen() {
+        Intent intent = new Intent(this, CommunicationScreen.class);
         startActivity(intent);
     }
 
+    public void openDecisionMakingScreen() {
+        Intent intent = new Intent(this, DecisionMakingScreen.class);
+        startActivity(intent);
+    }
+
+    public void openMyBodyScreen() {
+        Intent intent = new Intent(this, MyBodyScreen.class);
+        startActivity(intent);
+    }
+
+    public void openPregnancyScreen() {
+        Intent intent = new Intent(this, PregnancyScreen.class);
+        startActivity(intent);
+    }
+
+    public void openPubertyScreen() {
+        Intent intent = new Intent(this, PubertyScreen.class);
+        startActivity(intent);
+    }
+
+    public void openGenderEqualityScreen() {
+        Intent intent = new Intent(this, GenderEqualityScreen.class);
+        startActivity(intent);
+    }
+
+    public void openMythBusters() {
+        Intent intent = new Intent(this, MythBusters.class);
+        startActivity(intent);
+    }
+
+    public void openDiseasesScreen() {
+        Intent intent = new Intent(this, DiseasesScreen.class);
+        startActivity(intent);
+    }
+
+    public void openChatBotActivity() {
+        Intent intent = new Intent(this, ChatBotActivity.class);
+        startActivity(intent);
+    }
 
 
 }

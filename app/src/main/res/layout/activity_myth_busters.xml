@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -32,15 +31,17 @@
                 android:layout_height="200dp"
                 android:layout_below="@id/titleMythBusters"
                 app:srcCompat="@drawable/marginalia_social_distance" />
+
             <TextView
                 android:id="@+id/titleMyth1"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_below="@id/mythBusterPicture"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/mythBusterPicture"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth1"
                 android:layout_width="match_parent"
@@ -54,11 +55,12 @@
                 android:id="@+id/titleMyth2"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_below="@id/articleMyth1"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth1"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth2"
                 android:layout_width="match_parent"
@@ -72,11 +74,12 @@
                 android:id="@+id/titleMyth3"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_below="@id/articleMyth2"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth2"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth3"
                 android:layout_width="match_parent"
@@ -90,11 +93,12 @@
                 android:id="@+id/titleMyth4"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_below="@id/articleMyth3"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth3"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth4"
                 android:layout_width="match_parent"
@@ -108,11 +112,12 @@
                 android:id="@+id/titleMyth5"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_below="@id/articleMyth4"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth4"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth5"
                 android:layout_width="match_parent"
@@ -126,11 +131,12 @@
                 android:id="@+id/titleMyth6"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_below="@id/articleMyth5"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth5"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth6"
                 android:layout_width="match_parent"
@@ -144,11 +150,12 @@
                 android:id="@+id/titleMyth7"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_below="@id/articleMyth6"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth6"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth7"
                 android:layout_width="match_parent"
@@ -162,11 +169,12 @@
                 android:id="@+id/titleMyth8"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_below="@id/articleMyth7"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth7"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth8"
                 android:layout_width="match_parent"
@@ -180,11 +188,12 @@
                 android:id="@+id/titleMyth9"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_below="@id/articleMyth8"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth8"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth9"
                 android:layout_width="match_parent"
@@ -198,11 +207,12 @@
                 android:id="@+id/titleMyth10"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_below="@id/articleMyth9"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth9"/>
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth10"
                 android:layout_width="match_parent"

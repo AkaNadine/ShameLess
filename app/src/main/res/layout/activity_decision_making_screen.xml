@@ -28,8 +28,8 @@
                 android:layout_marginTop="7dp"
                 android:background="#00FFFFFF"
                 android:padding="10dp"
-                android:textSize="20sp"
-               android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/messageWindow"
