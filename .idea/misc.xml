@@ -66,11 +66,14 @@
         <entry key="app/src/main/res/drawable-v24/onboarding_indicator_active.xml" value="0.1145" />
         <entry key="app/src/main/res/drawable-v24/onboarding_indicator_inactive.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/button.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_undraw_connection_re_lcud_2.xml" value="0.12" />
         <entry key="app/src/main/res/drawable/ic_undraw_mobile_development_re_wwsn.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_undraw_quick_chat_re_bit5_2.xml" value="0.12" />
         <entry key="app/src/main/res/font/actor.xml" value="0.1361111111111111" />
         <entry key="app/src/main/res/font/langar.xml" value="0.10462962962962963" />
         <entry key="app/src/main/res/font/mada.xml" value="0.10462962962962963" />
         <entry key="app/src/main/res/layout/activity_communication_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_decision_making_screen.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_homepage.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />

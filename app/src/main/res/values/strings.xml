@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MainMenu</string>
     <string name="hello">Hello</string>
-    <string name="user">User</string>
+    <string name="user">Twilmy</string>
     <string name="my_body">My body</string>
     <string name="myth_busters">Myth Busters</string>
     <string name="decision_making">Decision Making</string>

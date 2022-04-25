@@ -47,8 +47,8 @@
         app:layout_constraintHorizontal_bias="0.145"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316"
-        app:srcCompat="@drawable/girl" />
+        app:layout_constraintVertical_bias="0.316"/>
+        <!--app:srcCompat="@drawable/girl"-->
 
     <ImageView
         android:id="@+id/imageView4"
@@ -59,7 +59,7 @@
         app:layout_constraintHorizontal_bias="0.928"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.312"
-        app:srcCompat="@drawable/boy" />
+        app:layout_constraintVertical_bias="0.312"/>
+        <!--app:srcCompat="@drawable/boy"-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

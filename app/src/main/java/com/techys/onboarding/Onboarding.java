@@ -69,17 +69,17 @@ public class Onboarding extends AppCompatActivity {
         OnboardingItem itemChatBox = new OnboardingItem();
         itemChatBox.setTitle("ChatBot");
         itemChatBox.setDescription("For any questions you have, feel free to talk to our assistant, Jimmy!");
-        itemChatBox.setImage(R.drawable.ic_undraw_quick_chat_re_bit5);
+        itemChatBox.setImage(R.drawable.ic_undraw_quick_chat_re_bit5_2);
 
         OnboardingItem itemArticles = new OnboardingItem();
         itemArticles.setTitle("Articles");
         itemArticles.setDescription("Full information about any topics from which you can learn by yourself.");
-        itemArticles.setImage(R.drawable.ic_undraw_online_articles_re_yrkj);
+        itemArticles.setImage(R.drawable.ic_undraw_online_articles_re_yrkj_2);
 
         OnboardingItem itemOurApp  = new OnboardingItem();
         itemOurApp.setTitle("ShameLess");
         itemOurApp.setDescription("A safe place where you can learn about sexual education.");
-        itemOurApp.setImage(R.drawable.ic_undraw_connection_re_lcud);
+        itemOurApp.setImage(R.drawable.ic_undraw_connection_re_lcud_2);
 
         OnboardingItem.add(itemOurApp);
         OnboardingItem.add(itemChatBox);
