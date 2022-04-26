@@ -54,11 +54,14 @@ public class PubertyScreen extends AppCompatActivity {
                 "Physical activity, writing, music, art, or talking with friends are great ways to express your emotions and feel good about yourself.\n\n");
 
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> main
     }
 
 }

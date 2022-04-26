@@ -26,6 +26,7 @@
             />
         <activity
             android:name=".authentication.MainActivity"
+<<<<<<< HEAD
             android:exported="true"
             />
         <activity
@@ -75,6 +76,45 @@
             android:name=".dialogflowbot.ChatBotActivity"
             android:exported="true"
             />
+=======
+            android:exported="true" />
+        <activity
+            android:name=".authentication.Login"
+            android:exported="true" />
+        <activity
+            android:name=".onboarding.Onboarding"
+            android:exported="true" />
+        <activity
+            android:name=".mainmenu.Homepage"
+            android:exported="true" />
+        <activity
+            android:name=".mainmenu.MyBodyScreen"
+            android:exported="true" />
+        <activity
+            android:name=".mainmenu.DecisionMakingScreen"
+            android:exported="true" />
+        <activity
+            android:name=".mainmenu.PregnancyScreen"
+            android:exported="true" />
+        <activity
+            android:name=".mainmenu.CommunicationScreen"
+            android:exported="true" />
+        <activity
+            android:name=".mainmenu.DiseasesScreen"
+            android:exported="true" />
+        <activity
+            android:name=".mainmenu.GenderEqualityScreen"
+            android:exported="true" />
+        <activity
+            android:name=".mainmenu.MythBusters"
+            android:exported="true" />
+        <activity
+            android:name=".mainmenu.PubertyScreen"
+            android:exported="true" />
+        <activity
+            android:name=".dialogflowbot.ChatBotActivity"
+            android:exported="true" />
+>>>>>>> main
 
         <meta-data
             android:name="preloaded_fonts"

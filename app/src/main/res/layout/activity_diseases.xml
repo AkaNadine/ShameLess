@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> main
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -15,19 +19,31 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
+<<<<<<< HEAD
             android:layout_height="wrap_content">
+=======
+            android:layout_height="match_parent">
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleDiseases"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="wrap_content"
                 android:paddingTop="30dp"
                 android:textAlignment="center"
                 android:textSize="25sp"
+=======
+                android:layout_height="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+>>>>>>> main
                 android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/mythBusterPicture"
+<<<<<<< HEAD
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
                 android:layout_below="@id/titleDiseases"
@@ -58,10 +74,45 @@
                 android:paddingLeft="30dp"
                 android:paddingRight="30dp"
                 android:textSize="15sp"  />
+=======
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/titleDiseases"
+                app:srcCompat="@drawable/marginalia_autopilot_vehicle" />
+
+            <TextView
+                android:id="@+id/titleDisease1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/mythBusterPicture"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/symptomsDisease1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease1"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/treatmentDisease1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease1"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleDisease2"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:paddingLeft="30dp"
@@ -84,10 +135,37 @@
                 android:paddingLeft="30dp"
                 android:paddingRight="30dp"
                 android:textSize="15sp"  />
+=======
+                android:layout_height="50dp"
+                android:layout_below="@id/treatmentDisease1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/symptomsDisease2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease2"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/treatmentDisease2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease2"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleDisease3"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:paddingLeft="30dp"
@@ -110,10 +188,37 @@
                 android:paddingLeft="30dp"
                 android:paddingRight="30dp"
                 android:textSize="15sp"  />
+=======
+                android:layout_height="50dp"
+                android:layout_below="@id/treatmentDisease2"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/symptomsDisease3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease3"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/treatmentDisease3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease3"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleDisease4"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:paddingLeft="30dp"
@@ -186,10 +291,93 @@
                 android:paddingLeft="30dp"
                 android:paddingRight="30dp"
                 android:textSize="15sp"  />
+=======
+                android:layout_height="50dp"
+                android:layout_below="@id/treatmentDisease3"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/symptomsDisease4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease4"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/treatmentDisease4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease4"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/titleDisease5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/treatmentDisease4"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/symptomsDisease5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease5"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/treatmentDisease5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease5"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/titleDisease6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/treatmentDisease5"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/symptomsDisease6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease6"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/treatmentDisease6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease6"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleDisease7"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:paddingLeft="30dp"
@@ -212,10 +400,37 @@
                 android:paddingLeft="30dp"
                 android:paddingRight="30dp"
                 android:textSize="15sp"  />
+=======
+                android:layout_height="50dp"
+                android:layout_below="@id/treatmentDisease6"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/symptomsDisease7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease7"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/treatmentDisease7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease7"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleDisease8"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:paddingLeft="30dp"
@@ -263,10 +478,65 @@
                 android:paddingLeft="30dp"
                 android:paddingRight="30dp"
                 android:textSize="15sp"  />
+=======
+                android:layout_height="50dp"
+                android:layout_below="@id/treatmentDisease7"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/symptomsDisease8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease8"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/treatmentDisease8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease8"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/titleDisease9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/treatmentDisease8"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/symptomsDisease9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/titleDisease9"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/treatmentDisease9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/symptomsDisease9"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/prevention"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:paddingLeft="30dp"
@@ -281,6 +551,23 @@
                 android:paddingLeft="30dp"
                 android:paddingRight="30dp"
                 android:textSize="15sp"  />
+=======
+                android:layout_height="50dp"
+                android:layout_below="@id/treatmentDisease9"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/abtPrevention"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/prevention"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+>>>>>>> main
 
         </RelativeLayout>
     </ScrollView>

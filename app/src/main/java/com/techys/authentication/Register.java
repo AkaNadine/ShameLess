@@ -18,7 +18,10 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.techys.R;
+<<<<<<< HEAD
 import com.techys.mainmenu.Homepage;
+=======
+>>>>>>> main
 
 public class Register extends AppCompatActivity {
     EditText mName, mEmail, mPassword;
@@ -72,7 +75,11 @@ public class Register extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             Toast.makeText(Register.this, "Account created!", Toast.LENGTH_SHORT).show();
+<<<<<<< HEAD
                             startActivity(new Intent(getApplicationContext(), Homepage.class));
+=======
+                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+>>>>>>> main
                         } else {
                             Toast.makeText(Register.this, "Error!" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                             progressBar.setVisibility(View.GONE);
@@ -84,7 +91,11 @@ public class Register extends AppCompatActivity {
         mLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 startActivity(new Intent(getApplicationContext(),Login.class));
+=======
+                startActivity(new Intent(getApplicationContext(), Login.class));
+>>>>>>> main
 
             }
         });

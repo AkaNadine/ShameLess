@@ -13,7 +13,11 @@ public class DecisionMakingScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_decision_making_screen);
+<<<<<<< HEAD
         TextView mTitleWindow =(TextView)  findViewById(R.id.titleWindow);
+=======
+        TextView mTitleWindow = (TextView) findViewById(R.id.titleWindow);
+>>>>>>> main
         TextView mMessageWindow = (TextView) findViewById(R.id.messageWindow);
         mTitleWindow.setText("Decision Making\n");
         mMessageWindow.setText("Each human being has the right to decide when, where and with who they have sex with. Forcing or manipulating someone into yielding is something that we will debate now.\n\n" +

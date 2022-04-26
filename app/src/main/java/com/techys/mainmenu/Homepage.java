@@ -4,7 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+<<<<<<< HEAD
 import android.widget.ImageButton;
+=======
+>>>>>>> main
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,9 +26,13 @@ public class Homepage extends AppCompatActivity {
     private Button btnGenderEquality;
     private Button btnMythBusters;
     private Button btnDiseases;
+<<<<<<< HEAD
     private ImageButton btnChatBot;
 
 
+=======
+    private Button btnChatbot;
+>>>>>>> main
 
 
     @Override
@@ -49,7 +56,11 @@ public class Homepage extends AppCompatActivity {
                 openDecisionMakingScreen();
             }
         });
+<<<<<<< HEAD
         btnMyBody= (Button) findViewById(R.id.btnMyBody);
+=======
+        btnMyBody = (Button) findViewById(R.id.btnMyBody);
+>>>>>>> main
         btnMyBody.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -99,14 +110,20 @@ public class Homepage extends AppCompatActivity {
                 openDiseasesScreen();
             }
         });
+<<<<<<< HEAD
         btnChatBot = (ImageButton) findViewById(R.id.btnChatBot);
         btnChatBot.setOnClickListener(new View.OnClickListener() {
+=======
+        btnChatbot = (Button) findViewById(R.id.btnChatBot);
+        btnChatbot.setOnClickListener(new View.OnClickListener() {
+>>>>>>> main
             @Override
             public void onClick(View view) {
                 Toast.makeText(Homepage.this, "Circle Button Clicked.", Toast.LENGTH_SHORT).show();
                 openChatBotActivity();
             }
         });
+<<<<<<< HEAD
     }
     public void openCommunicationScreen(){
         Intent intent= new Intent(this, CommunicationScreen.class);
@@ -142,6 +159,54 @@ public class Homepage extends AppCompatActivity {
     }
     public void openChatBotActivity(){
         Intent intent= new Intent(this, ChatBotActivity.class);
+=======
+
+
+    }
+
+    public void openCommunicationScreen() {
+        Intent intent = new Intent(this, CommunicationScreen.class);
+        startActivity(intent);
+    }
+
+    public void openDecisionMakingScreen() {
+        Intent intent = new Intent(this, DecisionMakingScreen.class);
+        startActivity(intent);
+    }
+
+    public void openMyBodyScreen() {
+        Intent intent = new Intent(this, MyBodyScreen.class);
+        startActivity(intent);
+    }
+
+    public void openPregnancyScreen() {
+        Intent intent = new Intent(this, PregnancyScreen.class);
+        startActivity(intent);
+    }
+
+    public void openPubertyScreen() {
+        Intent intent = new Intent(this, PubertyScreen.class);
+        startActivity(intent);
+    }
+
+    public void openGenderEqualityScreen() {
+        Intent intent = new Intent(this, GenderEqualityScreen.class);
+        startActivity(intent);
+    }
+
+    public void openMythBusters() {
+        Intent intent = new Intent(this, MythBusters.class);
+        startActivity(intent);
+    }
+
+    public void openDiseasesScreen() {
+        Intent intent = new Intent(this, DiseasesScreen.class);
+        startActivity(intent);
+    }
+
+    public void openChatBotActivity() {
+        Intent intent = new Intent(this, ChatBotActivity.class);
+>>>>>>> main
         startActivity(intent);
     }
 

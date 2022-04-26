@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
+<<<<<<< HEAD
         <item>
             <shape android:shape="rectangle">
                 <solid android:color="#D3D3D3"/>
                 <corners android:radius="40dp"/>
             </shape>
         </item>
+=======
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#D3D3D3" />
+            <corners android:radius="40dp" />
+        </shape>
+    </item>
+>>>>>>> main
 </selector>

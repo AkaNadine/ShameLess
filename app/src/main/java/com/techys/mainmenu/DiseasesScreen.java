@@ -94,6 +94,7 @@ public class DiseasesScreen extends AppCompatActivity {
         mabtprevention.setText("However, by being aware of changes in your body and practicing safer sex, you can protect yourself and your partners.\n\n\n");
 
 
+<<<<<<< HEAD
 
 
 
@@ -101,5 +102,7 @@ public class DiseasesScreen extends AppCompatActivity {
 
 
 
+=======
+>>>>>>> main
     }
 }

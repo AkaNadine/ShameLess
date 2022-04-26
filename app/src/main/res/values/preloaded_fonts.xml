@@ -5,6 +5,9 @@
         <item>@font/langar</item>
         <item>@font/actor</item>
         <item>@font/mada</item>
+<<<<<<< HEAD
         <item>@font/roboto</item>
+=======
+>>>>>>> main
     </array>
 </resources>

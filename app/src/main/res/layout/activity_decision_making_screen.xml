@@ -15,11 +15,16 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
+<<<<<<< HEAD
             android:layout_height="wrap_content">
+=======
+            android:layout_height="match_parent">
+>>>>>>> main
 
 
             <TextView
                 android:id="@+id/titleWindow"
+<<<<<<< HEAD
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#00FFFFFF"
@@ -34,15 +39,48 @@
                 android:layout_height="200dp"
                 android:layout_below="@id/titleWindow"
                 app:srcCompat="@drawable/ic_undraw_choice_re_2hkp" />
+=======
+                android:layout_width="350dp"
+                android:layout_height="250dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="7dp"
+                android:background="#00FFFFFF"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/messageWindow"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imageView"
                 android:padding="30dp"
                 android:textSize="15sp" />
 
+=======
+                android:layout_height="match_parent"
+                android:layout_below="@+id/titleWindow"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="-31dp"
+                android:layout_marginEnd="2dp"
+                android:padding="30dp"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="240dp"
+                android:layout_height="158dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="61dp"
+                android:layout_marginTop="55dp"
+                app:srcCompat="@drawable/bloom_woman_thinking" />
+>>>>>>> main
 
         </RelativeLayout>
 

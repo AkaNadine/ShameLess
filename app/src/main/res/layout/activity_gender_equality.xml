@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> main
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,16 +15,25 @@
 
     <ScrollView
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="match_parent"
         >
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+=======
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleGenderEquality"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="wrap_content"
                 android:paddingTop="30dp"
                 android:textAlignment="center"
@@ -41,6 +54,27 @@
                 android:layout_below="@id/gender_equality_picture"
                 android:padding="30dp"
                 android:textSize="15sp" />
+=======
+                android:layout_height="80dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/gender_equality_picture"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@id/titleGenderEquality"
+                app:srcCompat="@drawable/gender_equality_picture" />
+
+            <TextView
+                android:id="@+id/articleGenderEquality"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/gender_equality_picture"
+                android:padding="30dp"
+                android:textSize="16dp" />
+>>>>>>> main
 
 
         </RelativeLayout>
