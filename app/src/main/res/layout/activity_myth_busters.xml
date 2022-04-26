@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#8072ACAC"
     tools:context=".mainmenu.MythBusters">
 
 
@@ -15,202 +14,216 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/titleMythBusters"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="30dp"
                 android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                />
 
             <ImageView
                 android:id="@+id/mythBusterPicture"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="200dp"
                 android:layout_below="@id/titleMythBusters"
-                app:srcCompat="@drawable/marginalia_social_distance" />
+                app:srcCompat="@drawable/ic_undraw_opinion_re_jix4" />
+
             <TextView
                 android:id="@+id/titleMyth1"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/mythBusterPicture"/>
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mythBusterPicture"
+                android:paddingLeft="30dp"
+                android:paddingTop="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/titleMyth1"
-                android:padding="15dp"
-                android:textColor="@color/black"
-                android:textSize="17dp" />
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/titleMyth2"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth1"/>
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth1"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/titleMyth2"
-                android:padding="15dp"
-                android:textColor="@color/black"
-                android:textSize="17dp" />
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/titleMyth3"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth2"/>
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth2"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/titleMyth3"
-                android:padding="15dp"
-                android:textColor="@color/black"
-                android:textSize="17dp" />
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/titleMyth4"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth3"/>
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth3"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth4"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/titleMyth4"
-                android:padding="15dp"
-                android:textColor="@color/black"
-                android:textSize="17dp" />
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/titleMyth5"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth4"/>
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth4"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth5"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/titleMyth5"
-                android:padding="15dp"
-                android:textColor="@color/black"
-                android:textSize="17dp" />
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/titleMyth6"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth5"/>
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth5"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth6"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/titleMyth6"
-                android:padding="15dp"
-                android:textColor="@color/black"
-                android:textSize="17dp" />
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/titleMyth7"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth6"/>
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth6"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth7"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/titleMyth7"
-                android:padding="15dp"
-                android:textColor="@color/black"
-                android:textSize="17dp" />
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/titleMyth8"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth7"/>
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth7"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth8"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/titleMyth8"
-                android:padding="15dp"
-                android:textColor="@color/black"
-                android:textSize="17dp" />
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/titleMyth9"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth8"/>
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth8"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth9"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/titleMyth9"
-                android:padding="15dp"
-                android:textColor="@color/black"
-                android:textSize="17dp" />
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/titleMyth10"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_below="@id/articleMyth9"/>
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth9"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/articleMyth10"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/titleMyth10"
-                android:padding="15dp"
-                android:textColor="@color/black"
-                android:textSize="17dp" />
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
 
 
         </RelativeLayout>

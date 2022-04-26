@@ -16,56 +16,45 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:backgroundTint="#000000">
 
 
             <TextView
                 android:id="@+id/titleWindow"
                 android:layout_width="match_parent"
-                android:layout_height="185dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="7dp"
+                android:layout_height="wrap_content"
                 android:background="#0072ACAC"
-                android:padding="10dp"
-                android:textSize="20sp"
-                android:textColor="@color/black"/>
+                android:paddingTop="30dp"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="0dp"
-                android:layout_height="158dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
                 android:layout_below="@+id/titleWindow"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="74dp"
-                android:layout_marginTop="-160dp"
-                android:layout_marginEnd="99dp"
-                app:srcCompat="@drawable/marginalia_1267" />
+                app:srcCompat="@drawable/ic_undraw_baby_ja_7_a" />
 
             <TextView
                 android:id="@+id/messageWindow"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@+id/titleWindow"
-                android:layout_alignParentEnd="true"
-                android:layout_marginTop="-31dp"
-                android:layout_marginEnd="2dp"
-                android:padding="30dp"
-                android:textSize="16sp" />
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/message2Window"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/messageWindow"
-                android:layout_alignParentEnd="true"
-                android:layout_marginTop="-31dp"
-                android:layout_marginEnd="2dp"
-                android:padding="30dp"
-                android:textSize="16sp" />
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
         </RelativeLayout>
 
     </ScrollView>

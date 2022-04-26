@@ -156,6 +156,7 @@
         android:textColor="@color/dark_blue"
         android:textSize="20sp"
         android:gravity="center"
+        android:paddingBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"

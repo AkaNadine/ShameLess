@@ -45,34 +45,34 @@ public class Login extends AppCompatActivity {
             public void onClick(View v) {
                 String email = mEmail.getText().toString().trim();
                 String password = mPassword.getText().toString().trim();
-//                if (TextUtils.isEmpty(email)) {
-//                    mEmail.setError("Email is required.");
-//                    return;
-//                }
-//                if (TextUtils.isEmpty(password)) {
-//                    mPassword.setError("Password is required.");
-//                    return;
-//                }
-//                if (password.length() < 6) {
-//                    mPassword.setError("Password must have more than 5 characters.");
-//                    return;
-//                }
+                if (TextUtils.isEmpty(email)) {
+                    mEmail.setError("Email is required.");
+                    return;
+                }
+                if (TextUtils.isEmpty(password)) {
+                    mPassword.setError("Password is required.");
+                    return;
+                }
+                if (password.length() < 6) {
+                    mPassword.setError("Password must have more than 5 characters.");
+                    return;
+                }
                 progressBar.setVisibility(View.VISIBLE);
                 startActivity(new Intent(getApplicationContext(), Homepage.class));
                 ///authenticate the user
 
-//                fAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-//                    @Override
-//                    public void onComplete(@NonNull Task<AuthResult> task) {
-//                        if (task.isSuccessful()) {
-//                            Toast.makeText(Login.this, "Logged in successfully!", Toast.LENGTH_SHORT).show();
-//                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
-//                        } else {
-//                            Toast.makeText(Login.this, "Error!" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-//                        }
-//
-//                    }
-//                });
+                fAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            Toast.makeText(Login.this, "Logged in successfully!", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(getApplicationContext(), Homepage.class));
+                        } else {
+                            Toast.makeText(Login.this, "Error!" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                        }
+
+                  }
+               });
             }
         });
         mCreateBtn.setOnClickListener(new View.OnClickListener() {

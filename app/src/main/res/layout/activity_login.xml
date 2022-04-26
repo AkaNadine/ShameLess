@@ -150,14 +150,15 @@
         android:fontFamily="@font/roboto"
         android:text="New here? Create an account"
         android:textColor="@color/dark_blue"
-        android:textSize="22sp"
+        android:textSize="20sp"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginButton"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:paddingBottom="20dp"/>
 
     <TextView
         android:id="@+id/textView3"

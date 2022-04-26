@@ -14,74 +14,72 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/titlePuberty"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
+                android:layout_height="wrap_content"
                 android:background="#0072ACAC"
-                android:padding="10dp"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:paddingTop="30dp"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="0dp"
-                android:layout_height="158dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
                 android:layout_below="@+id/titlePuberty"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="74dp"
-                android:layout_marginTop="-160dp"
-                android:layout_marginEnd="99dp"
-                app:srcCompat="@drawable/growing_up" />
+                app:srcCompat="@drawable/ic_undraw_reading_re_29f8" />
 
             <TextView
                 android:id="@+id/articlePuberty"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@id/titlePuberty"
-                android:padding="30dp"
-                android:textSize="16sp" />
+                android:layout_height="wrap_content"
+                android:paddingTop="30dp"
+                android:layout_below="@id/imageView"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/titlePuberty2"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/articlePuberty"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="20sp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/articlePuberty2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/titlePuberty2"
-                android:padding="15dp"
-                android:textSize="16dp" />
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp"  />
 
             <TextView
                 android:id="@+id/titlePuberty3"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/articlePuberty2"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="20sp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/articlePuberty3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/titlePuberty3"
-                android:padding="15dp"
-                android:textSize="16dp" />
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
 
         </RelativeLayout>
     </ScrollView>
