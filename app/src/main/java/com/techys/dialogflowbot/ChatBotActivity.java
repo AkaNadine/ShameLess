@@ -12,6 +12,13 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
+<<<<<<< HEAD
+import com.techys.dialogflowbot.adapters.ChatAdapter;
+import com.techys.dialogflowbot.helpers.SendMessageInBg;
+import com.techys.dialogflowbot.interfaces.BotReply;
+import com.techys.dialogflowbot.models.Message;
+=======
+>>>>>>> main
 import com.google.api.gax.core.FixedCredentialsProvider;
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.auth.oauth2.ServiceAccountCredentials;
@@ -23,6 +30,10 @@ import com.google.cloud.dialogflow.v2.SessionsClient;
 import com.google.cloud.dialogflow.v2.SessionsSettings;
 import com.google.cloud.dialogflow.v2.TextInput;
 import com.google.common.collect.Lists;
+<<<<<<< HEAD
+import com.google.protobuf.InvalidProtocolBufferException;
+import com.techys.R;
+=======
 import com.google.gson.Gson;
 import com.google.protobuf.InvalidProtocolBufferException;
 import com.techys.R;
@@ -31,6 +42,7 @@ import com.techys.dialogflowbot.helpers.SendMessageInBg;
 import com.techys.dialogflowbot.interfaces.BotReply;
 import com.techys.dialogflowbot.models.CustomPayload;
 import com.techys.dialogflowbot.models.Message;
+>>>>>>> main
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -39,20 +51,38 @@ import java.util.Objects;
 import java.util.UUID;
 
 
+<<<<<<< HEAD
+
+public class ChatBotActivity extends AppCompatActivity implements BotReply {
+
+=======
 public class ChatBotActivity extends AppCompatActivity implements BotReply {
 
     private final String uuid = UUID.randomUUID().toString();
+>>>>>>> main
     RecyclerView chatView;
     ChatAdapter chatAdapter;
     List<Message> messageList = new ArrayList<>();
     EditText editMessage;
     ImageButton btnSend;
+<<<<<<< HEAD
+
+    //dialogFlow
+    private SessionsClient sessionsClient;
+    private SessionName sessionName;
+    private final String uuid = UUID.randomUUID().toString();
+    private String jsonString;
+
+
+
+=======
     //dialogFlow
     private SessionsClient sessionsClient;
     private SessionName sessionName;
     private String jsonString;
 
 
+>>>>>>> main
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,6 +94,8 @@ public class ChatBotActivity extends AppCompatActivity implements BotReply {
         chatAdapter = new ChatAdapter(messageList, this);
         chatView.setAdapter(chatAdapter);
 
+<<<<<<< HEAD
+=======
        /* public class WebViewClient extends Object(){
             WebView myWebView = null;
             myWebView.setWebViewClient(new WebViewClient() {
@@ -88,6 +120,7 @@ public class ChatBotActivity extends AppCompatActivity implements BotReply {
             }
         });*/
 
+>>>>>>> main
         btnSend.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("NotifyDataSetChanged")
             @Override
@@ -140,6 +173,16 @@ public class ChatBotActivity extends AppCompatActivity implements BotReply {
     public void callback(DetectIntentResponse returnResponse) throws InvalidProtocolBufferException {
         if (returnResponse != null) {
             String botReply = returnResponse.getQueryResult().getFulfillmentText();
+<<<<<<< HEAD
+
+            List<Intent.Message> payloadList = returnResponse.getQueryResult().getFulfillmentMessagesList();
+            if (payloadList.size() > 1) {
+                String payload = payloadList.get(1).toString();
+            }
+
+            if (!botReply.isEmpty()) {
+                Message message = new Message(botReply, true);
+=======
 /*            String payload = returnResponse.getQueryResult().getFulfillmentMessages(1).getPayload().toString();
             returnResponse.getQueryResult().getFulfillmentMessages(1).getPayload().getFieldsMap();
             JsonFormat.Printer json = JsonFormat.printer().includingDefaultValueFields();
@@ -168,6 +211,7 @@ public class ChatBotActivity extends AppCompatActivity implements BotReply {
             if (!botReply.isEmpty()) {
                 Message message = new Message(botReply, true);
                 message.setCustomPayload(customPayload);
+>>>>>>> main
                 messageList.add(message);
                 chatAdapter.notifyDataSetChanged();
                 Objects.requireNonNull(chatView.getLayoutManager()).scrollToPosition(messageList.size() - 1);

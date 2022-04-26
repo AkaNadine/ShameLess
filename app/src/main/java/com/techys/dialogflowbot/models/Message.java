@@ -4,7 +4,10 @@ public class Message {
 
     private String message;
     private boolean isReceived;
+<<<<<<< HEAD
+=======
     private CustomPayload customPayload;
+>>>>>>> main
 
     public Message(String message, boolean isReceived) {
         this.message = message;
@@ -26,6 +29,8 @@ public class Message {
     public void setIsReceived(boolean isReceived) {
         this.isReceived = isReceived;
     }
+<<<<<<< HEAD
+=======
 
     public CustomPayload getCustomPayload() {
         return customPayload;
@@ -34,4 +39,5 @@ public class Message {
     public void setCustomPayload(CustomPayload customPayload) {
         this.customPayload = customPayload;
     }
+>>>>>>> main
 }

@@ -15,13 +15,32 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
+<<<<<<< HEAD
+            android:layout_height="wrap_content">
+=======
             android:layout_height="match_parent"
             android:backgroundTint="#000000">
 
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleWindow"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:background="#0072ACAC"
+                android:paddingTop="30dp"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_below="@+id/titleWindow"
+                app:srcCompat="@drawable/ic_undraw_online_discussion_re_nn7e" />
+=======
                 android:layout_height="180dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
@@ -43,11 +62,20 @@
                 android:layout_marginTop="-160dp"
                 android:layout_marginEnd="99dp"
                 app:srcCompat="@drawable/bloom_couple" />
+>>>>>>> main
 
 
             <TextView
                 android:id="@+id/messageWindow"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:paddingTop="30dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@+id/titleWindow"
                 android:layout_alignParentEnd="true"
@@ -55,10 +83,19 @@
                 android:layout_marginEnd="2dp"
                 android:padding="30dp"
                 android:textSize="16sp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/header1Window"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/messageWindow"
+                android:paddingTop="30dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@+id/messageWindow"
                 android:layout_alignParentEnd="true"
@@ -66,11 +103,19 @@
                 android:layout_marginEnd="2dp"
                 android:padding="30dp"
                 android:textSize="16sp"
+>>>>>>> main
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/message1Window"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header1Window"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@+id/header1Window"
                 android:layout_alignParentEnd="true"
@@ -78,10 +123,18 @@
                 android:layout_marginEnd="2dp"
                 android:padding="30dp"
                 android:textSize="16sp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/header2Window"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/message1Window"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@+id/message1Window"
                 android:layout_alignParentEnd="true"
@@ -89,11 +142,19 @@
                 android:layout_marginEnd="2dp"
                 android:padding="30dp"
                 android:textSize="16sp"
+>>>>>>> main
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/message2Window"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header2Window"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@+id/header2Window"
                 android:layout_alignParentEnd="true"
@@ -101,10 +162,18 @@
                 android:layout_marginEnd="2dp"
                 android:padding="30dp"
                 android:textSize="16sp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/header3Window"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/message2Window"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@+id/message2Window"
                 android:layout_alignParentEnd="true"
@@ -112,11 +181,19 @@
                 android:layout_marginEnd="2dp"
                 android:padding="30dp"
                 android:textSize="16sp"
+>>>>>>> main
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/message3Window"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header3Window"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@+id/header3Window"
                 android:layout_alignParentEnd="true"
@@ -124,10 +201,18 @@
                 android:layout_marginEnd="2dp"
                 android:padding="30dp"
                 android:textSize="16sp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/header4Window"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/message3Window"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@+id/message3Window"
                 android:layout_alignParentEnd="true"
@@ -135,11 +220,19 @@
                 android:layout_marginEnd="2dp"
                 android:padding="30dp"
                 android:textSize="16sp"
+>>>>>>> main
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/message4Window"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header4Window"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@+id/header4Window"
                 android:layout_alignParentEnd="true"
@@ -147,6 +240,7 @@
                 android:layout_marginEnd="2dp"
                 android:padding="30dp"
                 android:textSize="16sp" />
+>>>>>>> main
 
         </RelativeLayout>
 

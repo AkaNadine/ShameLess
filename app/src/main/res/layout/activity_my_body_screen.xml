@@ -19,11 +19,31 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
+<<<<<<< HEAD
+            android:layout_height="wrap_content">
+=======
             android:layout_height="match_parent">
+>>>>>>> main
 
 
             <TextView
                 android:id="@+id/titleWindow"
+<<<<<<< HEAD
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="#00E9C46A"
+                android:paddingTop="30dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/titleWindow"
+=======
                 android:layout_width="350dp"
                 android:layout_height="250dp"
                 android:layout_alignParentStart="true"
@@ -45,11 +65,17 @@
                 android:layout_marginStart="74dp"
                 android:layout_marginEnd="99dp"
                 android:layout_marginBottom="1dp"
+>>>>>>> main
                 app:srcCompat="@drawable/female_reproduction" />
 
 
             <ImageView
                 android:id="@+id/image2View"
+<<<<<<< HEAD
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/title2Window"
+=======
                 android:layout_width="0dp"
                 android:layout_height="158dp"
                 android:layout_below="@+id/title2Window"
@@ -58,11 +84,28 @@
                 android:layout_marginStart="81dp"
                 android:layout_marginTop="-78dp"
                 android:layout_marginEnd="92dp"
+>>>>>>> main
                 app:srcCompat="@drawable/male_reproduction" />
 
             <TextView
                 android:id="@+id/messageWindow"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/title2Window"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/messageWindow"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@+id/titleWindow"
                 android:padding="30dp"
@@ -75,15 +118,24 @@
                 android:layout_below="@+id/messageWindow"
                 android:padding="30dp"
                 android:textSize="16sp" />
+>>>>>>> main
 
             <TextView
 
                 android:id="@+id/message2Window"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image2View"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@+id/image2View"
                 android:padding="30dp"
                 android:textSize="16sp" />
+>>>>>>> main
 
 
         </RelativeLayout>

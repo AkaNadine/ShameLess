@@ -2,7 +2,12 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape android:shape="rectangle">
+<<<<<<< HEAD
+            <gradient android:startColor="@color/blue"
+                android:endColor="@color/yellow" />
+=======
             <gradient android:endColor="@color/yellow" android:startColor="@color/blue" />
+>>>>>>> main
         </shape>
     </item>
 </selector>

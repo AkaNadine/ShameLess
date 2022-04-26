@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">MainMenu</string>
     <string name="hello">Hello</string>
+<<<<<<< HEAD
+    <string name="user">Twilmy</string>
+=======
     <string name="user">User</string>
+>>>>>>> main
     <string name="my_body">My body</string>
     <string name="myth_busters">Myth Busters</string>
     <string name="decision_making">Decision Making</string>
@@ -13,5 +17,8 @@
     <string name="chat_with_jimmy">Chat With Jimmy</string>
     <string name="getting_to_know_my_body">Getting to know my body</string>
     <string name="login">Login</string>
+<<<<<<< HEAD
+=======
     <string name="chat_with_sasha">Chat with Sasha</string>
+>>>>>>> main
 </resources>

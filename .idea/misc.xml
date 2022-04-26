@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/akana/AndroidStudioProjects/ShameLess-copy/app/src/main/res/drawable-v24/btn_background.xml" value="0.22" />
+        <entry key="..\:/Users/akana/AndroidStudioProjects/ShameLess-copy/app/src/main/res/drawable-v24/btn_background2.xml" value="0.22" />
+        <entry key="..\:/Users/akana/AndroidStudioProjects/ShameLess-copy/app/src/main/res/layout/activity_communication_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/akana/AndroidStudioProjects/ShameLess-copy/app/src/main/res/layout/activity_decision_making_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/akana/AndroidStudioProjects/ShameLess-copy/app/src/main/res/layout/activity_diseases.xml" value="0.33491912464319695" />
+        <entry key="..\:/Users/akana/AndroidStudioProjects/ShameLess-copy/app/src/main/res/layout/activity_gender_equality.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/akana/AndroidStudioProjects/ShameLess-copy/app/src/main/res/layout/activity_homepage.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/akana/AndroidStudioProjects/ShameLess-copy/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/akana/AndroidStudioProjects/ShameLess-copy/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/akana/AndroidStudioProjects/ShameLess-copy/app/src/main/res/layout/activity_my_body_screen.xml" value="0.1" />
+        <entry key="..\:/Users/akana/AndroidStudioProjects/ShameLess-copy/app/src/main/res/layout/activity_myth_busters.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/akana/AndroidStudioProjects/ShameLess-copy/app/src/main/res/layout/activity_pregnancy_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/akana/AndroidStudioProjects/ShameLess-copy/app/src/main/res/layout/activity_puberty_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/akana/AndroidStudioProjects/ShameLess-copy/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/akana/AndroidStudioProjects/ShameLess-copy/app/src/main/res/layout/adapter_message_one.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/akana/AndroidStudioProjects/ShameLess-copy/app/src/main/res/layout/chatbot_activity_main.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+=======
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+>>>>>>> main
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

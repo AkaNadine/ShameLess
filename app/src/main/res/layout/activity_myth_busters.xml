@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
+    android:background="#8072ACAC"
+=======
     android:background="@color/white"
+>>>>>>> main
     tools:context=".mainmenu.MythBusters">
 
 
@@ -14,11 +18,31 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
+<<<<<<< HEAD
+            android:layout_height="wrap_content">
+=======
             android:layout_height="match_parent">
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleMythBusters"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:paddingTop="30dp"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                />
+
+            <ImageView
+                android:id="@+id/mythBusterPicture"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_below="@id/titleMythBusters"
+                app:srcCompat="@drawable/ic_undraw_opinion_re_jix4" />
+=======
                 android:layout_height="50dp"
                 android:textAlignment="center"
                 android:textColor="@color/black"
@@ -31,196 +55,358 @@
                 android:layout_height="200dp"
                 android:layout_below="@id/titleMythBusters"
                 app:srcCompat="@drawable/marginalia_social_distance" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleMyth1"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mythBusterPicture"
+                android:paddingLeft="30dp"
+                android:paddingTop="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+=======
                 android:layout_height="50dp"
                 android:layout_below="@id/mythBusterPicture"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
+>>>>>>> main
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/articleMyth1"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleMyth1"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@id/titleMyth1"
                 android:padding="15dp"
                 android:textColor="@color/black"
                 android:textSize="17dp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleMyth2"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth1"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+=======
                 android:layout_height="50dp"
                 android:layout_below="@id/articleMyth1"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
+>>>>>>> main
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/articleMyth2"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleMyth2"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@id/titleMyth2"
                 android:padding="15dp"
                 android:textColor="@color/black"
                 android:textSize="17dp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleMyth3"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth2"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+=======
                 android:layout_height="50dp"
                 android:layout_below="@id/articleMyth2"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
+>>>>>>> main
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/articleMyth3"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleMyth3"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@id/titleMyth3"
                 android:padding="15dp"
                 android:textColor="@color/black"
                 android:textSize="17dp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleMyth4"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth3"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+=======
                 android:layout_height="50dp"
                 android:layout_below="@id/articleMyth3"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
+>>>>>>> main
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/articleMyth4"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleMyth4"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@id/titleMyth4"
                 android:padding="15dp"
                 android:textColor="@color/black"
                 android:textSize="17dp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleMyth5"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth4"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+=======
                 android:layout_height="50dp"
                 android:layout_below="@id/articleMyth4"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
+>>>>>>> main
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/articleMyth5"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleMyth5"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@id/titleMyth5"
                 android:padding="15dp"
                 android:textColor="@color/black"
                 android:textSize="17dp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleMyth6"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth5"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+=======
                 android:layout_height="50dp"
                 android:layout_below="@id/articleMyth5"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
+>>>>>>> main
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/articleMyth6"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleMyth6"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@id/titleMyth6"
                 android:padding="15dp"
                 android:textColor="@color/black"
                 android:textSize="17dp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleMyth7"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth6"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+=======
                 android:layout_height="50dp"
                 android:layout_below="@id/articleMyth6"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
+>>>>>>> main
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/articleMyth7"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleMyth7"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@id/titleMyth7"
                 android:padding="15dp"
                 android:textColor="@color/black"
                 android:textSize="17dp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleMyth8"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth7"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+=======
                 android:layout_height="50dp"
                 android:layout_below="@id/articleMyth7"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
+>>>>>>> main
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/articleMyth8"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleMyth8"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@id/titleMyth8"
                 android:padding="15dp"
                 android:textColor="@color/black"
                 android:textSize="17dp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleMyth9"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth8"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+=======
                 android:layout_height="50dp"
                 android:layout_below="@id/articleMyth8"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
+>>>>>>> main
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/articleMyth9"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleMyth9"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@id/titleMyth9"
                 android:padding="15dp"
                 android:textColor="@color/black"
                 android:textSize="17dp" />
+>>>>>>> main
 
             <TextView
                 android:id="@+id/titleMyth10"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/articleMyth9"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20sp"
+=======
                 android:layout_height="50dp"
                 android:layout_below="@id/articleMyth9"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20dp"
+>>>>>>> main
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/articleMyth10"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleMyth10"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="15sp" />
+=======
                 android:layout_height="match_parent"
                 android:layout_below="@id/titleMyth10"
                 android:padding="15dp"
                 android:textColor="@color/black"
                 android:textSize="17dp" />
+>>>>>>> main
 
 
         </RelativeLayout>
